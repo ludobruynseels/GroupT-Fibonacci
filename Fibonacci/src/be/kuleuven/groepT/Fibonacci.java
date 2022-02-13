@@ -1,13 +1,13 @@
 package be.kuleuven.groepT;
 
 public class Fibonacci {
-    public long Generate(int n) {
-        long prevprevValue = 0;
-        long prevValue = 1;
+    public int Generate(int n) {
+        int prevprevValue = 0;
+        int prevValue = 1;
         System.out.println(prevprevValue);
         System.out.println(prevValue);
 
-        long result = 0;
+        int result = 0;
         for(int i = 1; i < n; i++)
         {
             result = prevprevValue + prevValue;

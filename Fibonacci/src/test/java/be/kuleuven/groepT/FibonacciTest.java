@@ -19,14 +19,14 @@ class FibonacciTest {
     @Test
     void generate5() {
         Fibonacci f = new Fibonacci();
-        long result = f.Generate(5);
+        int result = f.Generate(5);
         assertEquals(5, result);
     }
 
     @Test
     void generate50() {
         Fibonacci f = new Fibonacci();
-        long result = f.Generate(50);
-        assertEquals(12586269025L, result);
+        int result = f.Generate(45);
+        assertEquals(1134903170, result);
     }
 }
